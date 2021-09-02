@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import CoreNetwork
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let coreNetwork = CoreNetwork()
+        coreNetwork.log()
+        
     }
 
     override func didReceiveMemoryWarning() {
