@@ -9,14 +9,13 @@
 /* Begin PBXBuildFile section */
 		110A77D5F951AC249834577356DAE9C6 /* CoreNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04FA0AF2207B6533457323F05100B24B /* CoreNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		438235FC91F2BE2A71AC388D10A8835A /* Pods-CoreNetwork_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF23C7B1A0085D432D1B217E76D4F00 /* Pods-CoreNetwork_Example-dummy.m */; };
-		4505505C5B29200A868926C46CF70C36 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65012FAE029EDFE7BF99114E9D841A1F /* ReplaceMe.swift */; };
 		6AAA838859572CD161F663EF29600EA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		768C5C404E70DA31DE84C7428C2729A3 /* Pods-CoreNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 29884A7F5BF7705B5ABD291200699C81 /* Pods-CoreNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FB1252ED0BBA0816E2904F30CEF840A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		A798FAE9A0E01F2EDB1B9C414547BB27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		B3811DB066D721FD5E2A89F58941CAD7 /* CoreNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0556DA68FEA2797C893D0CFA57A205 /* CoreNetwork-dummy.m */; };
 		D3B5CFD32814D5FA440995AB6D99AC03 /* Pods-CoreNetwork_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 923BE9A4316644217FFB3A507EDD8FDB /* Pods-CoreNetwork_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D465622A26DE769D00C7C9D8 /* CoreNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D465622926DE769D00C7C9D8 /* CoreNetwork.swift */; };
+		D465622C26E1180D00C7C9D8 /* CoreNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D465622B26E1180D00C7C9D8 /* CoreNetwork.swift */; };
 		F2A82C496901AFF611CDDCFF67510CB2 /* Pods-CoreNetwork_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8132F348488D03180D7C5A4C0DBD58 /* Pods-CoreNetwork_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -52,7 +51,6 @@
 		4D0DC64EB3872BBD4F62D548E2E3A292 /* CoreNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		4DF23C7B1A0085D432D1B217E76D4F00 /* Pods-CoreNetwork_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CoreNetwork_Example-dummy.m"; sourceTree = "<group>"; };
 		4DF3346FB256D286DD52E98BF79C0B61 /* CoreNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreNetwork-Info.plist"; sourceTree = "<group>"; };
-		65012FAE029EDFE7BF99114E9D841A1F /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CoreNetwork/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		6C160BDED19EB24F16C9AAA22A96DC61 /* CoreNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreNetwork-prefix.pch"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		80BD670CA34CE0376F5598419C7E2123 /* Pods-CoreNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CoreNetwork_Example.modulemap"; sourceTree = "<group>"; };
@@ -65,7 +63,7 @@
 		C371BD415518AEC521CBB87896765649 /* Pods_CoreNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoreNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4F3025D8E887CF0D28F4E1424F8CAE3 /* Pods-CoreNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CoreNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C54FAF7B4180E2D2C2D15748F9F76B5E /* Pods-CoreNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CoreNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D465622926DE769D00C7C9D8 /* CoreNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreNetwork.swift; sourceTree = "<group>"; };
+		D465622B26E1180D00C7C9D8 /* CoreNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreNetwork.swift; path = CoreNetwork/Classes/CoreNetwork.swift; sourceTree = "<group>"; };
 		D803E6D283C1FC9658B574DCF9160D59 /* CoreNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreNetwork.modulemap; sourceTree = "<group>"; };
 		D8CEADBF8450EB54C75BBEECEA71CD18 /* Pods-CoreNetwork_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreNetwork_Tests-Info.plist"; sourceTree = "<group>"; };
 		DB2D6D1D11E8FF3DA3E386EF3B132118 /* Pods-CoreNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CoreNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -105,8 +103,7 @@
 		1E5AE02975BDE19FBB5F480F69F5E113 /* CoreNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				65012FAE029EDFE7BF99114E9D841A1F /* ReplaceMe.swift */,
-				D465622926DE769D00C7C9D8 /* CoreNetwork.swift */,
+				D465622B26E1180D00C7C9D8 /* CoreNetwork.swift */,
 				DA155C8F02EA8E0E93EA2C5BF6DCA931 /* Pod */,
 				C86B7D9A9BDAE5070581A2F2198A6953 /* Support Files */,
 			);
@@ -320,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					DE6D2808C9A7A4371F57FE0EFC90C893 = {
+						LastSwiftMigration = 1250;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -386,9 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D465622A26DE769D00C7C9D8 /* CoreNetwork.swift in Sources */,
 				B3811DB066D721FD5E2A89F58941CAD7 /* CoreNetwork-dummy.m in Sources */,
-				4505505C5B29200A868926C46CF70C36 /* ReplaceMe.swift in Sources */,
+				D465622C26E1180D00C7C9D8 /* CoreNetwork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4D0DC64EB3872BBD4F62D548E2E3A292 /* CoreNetwork.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -433,6 +435,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -510,6 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EBD07E115FA4F7188A45B551A10E0FC6 /* CoreNetwork.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
